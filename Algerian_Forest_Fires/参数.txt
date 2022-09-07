@@ -1,0 +1,67 @@
+label_name = 'Classes'
+label_nom =1#小类的标签将少数类作为正例，聚焦在少数类上因此异常应为1
+path ='Algerian_Forest_Fires'
+path_result='./Algerian_Forest_Fires/result/tree_class/'
+path_result_dt='./Algerian_Forest_Fires/result/tree_class/describe_tree/describe_'
+names =['Temperature', ' RH', ' Ws',
+        'Rain ', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'Classes']
+names_sort =['Temperature', ' RH', ' Ws',
+        'Rain ', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'Classes']
+names_nolabel =['Temperature', ' RH', ' Ws',
+        'Rain ', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI']
+numfeatures =['Temperature', ' RH', ' Ws',
+        'Rain ', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI']
+names_nolabel_nosort=['Temperature', ' RH', ' Ws',
+        'Rain ', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI']
+no_num_features = []  # 注意不需加上Label
+tolerance_rate =2
+issame_rate = 0.2
+knn_rate = 2#有自编码器
+# knn_rate=0.61#无自编码器
+# knn_rate = 2#有自编码器(cross)
+# knn_rate = 2.2#有自编码器(re3)
+
+f1_all_1a = []
+f1_all_2a = []
+f1_all_2b=[]
+arra = []
+cana = []
+deptha = []
+roc_alla = []
+acc_alla = []
+prec_alla = []
+recall_alla = []
+k=5.0
+n=-1
+num_class=2
+resample_num=10
+f1_all_1a = []
+f1_all_2a = []
+f1_all_2b=[]
+arra = []
+cana = []
+deptha = []
+roc_alla = []
+acc_alla = []
+prec_alla = []
+recall_alla = []
+num_nodea=[]
+can_dt=[]
+describe_treea=[]
+f1_all_2_dt=[]
+arr_dt = []
+num_node_dt = []
+depth_dt = []
+roc_all_dt = []
+acc_all_dt = []
+prec_all_dt = []
+recall_all_dt = []
+score_train_dt=[]
+k=5.0
+n=-1
+num_class=2
+
+for b in range(5):
+    df = pd.read_csv('./Algerian_Forest_Fires/train_Algerian_Forest_Fires_'+str(b)+'.csv', names=names, header=None)
+    df_test = pd.read_csv('./Algerian_Forest_Fires/test_Algerian_Forest_Fires_'+str(b)+'.csv', names=names,
+                          header=None)

@@ -1,0 +1,11 @@
+,describe_tree,can,f1_score1,roc_auc,recall,prec,acc,score_arr,depth,num_node,score_train
+0,"{split_feature:attribute_11,split_value:0.16766666666666669,gini_value:0.316854183748767,train_num_sample:166,depth:0,left_tree:{leaf_value:1.0,train_num_sample:59,depth:1},right_tree:{leaf_value:0.0,train_num_sample:107,depth:1}}","[1, 2]",0.588235294117647,0.659090909090909,0.5,0.7142857142857143,0.6666666666666666,"[[10 10]
+ [ 4 18]]",1,2,0.7710843373493976
+1,"{split_feature:attribute_11,split_value:0.19699999999999993,gini_value:0.32076806160189264,train_num_sample:166,depth:0,left_tree:{split_feature:attribute_47,split_value:0.3096,gini_value:0.15304004313128594,train_num_sample:71,depth:1,left_tree:{leaf_value:1.0,train_num_sample:67,depth:2},right_tree:{leaf_value:0.0,train_num_sample:4,depth:2}},right_tree:{leaf_value:0.0,train_num_sample:95,depth:1}}","[1, 2]",0.6285714285714286,0.6840909090909091,0.55,0.7333333333333333,0.6904761904761905,"[[11  9]
+ [ 4 18]]",2,3,0.7951807228915663
+2,"{leaf_value:0.0,train_num_sample:166,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5476190476190477,"[[ 0 19]
+ [ 0 23]]",0,1,0.5301204819277109
+3,"{leaf_value:0.0,train_num_sample:167,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5365853658536586,"[[ 0 19]
+ [ 0 22]]",0,1,0.5329341317365269
+4,"{leaf_value:0.0,train_num_sample:167,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5365853658536586,"[[ 0 19]
+ [ 0 22]]",0,1,0.5329341317365269

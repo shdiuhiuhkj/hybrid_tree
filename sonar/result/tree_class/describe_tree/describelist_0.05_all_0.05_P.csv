@@ -1,0 +1,11 @@
+,describe_tree,can,f1_score1,roc_auc,recall,prec,acc,score_arr,depth,num_node,score_train
+0,"{split_feature:attribute_11,split_value:0.16766666666666669,gini_value:0.3222338718830577,train_num_sample:166,depth:0,left_tree:{leaf_value:1.0,train_num_sample:59,depth:1},right_tree:{leaf_value:0.0,train_num_sample:107,depth:1}}","[1, 2]",0.588235294117647,0.659090909090909,0.5,0.7142857142857143,0.6666666666666666,"[[10 10]
+ [ 4 18]]",1,2,0.7710843373493976
+1,"{split_feature:attribute_11,split_value:0.19699999999999993,gini_value:0.32614131510012706,train_num_sample:166,depth:0,left_tree:{split_feature:attribute_47,split_value:0.3096,gini_value:0.17378100434018764,train_num_sample:71,depth:1,left_tree:{leaf_value:1.0,train_num_sample:67,depth:2},right_tree:{leaf_value:0.0,train_num_sample:4,depth:2}},right_tree:{leaf_value:0.0,train_num_sample:95,depth:1}}","[1, 2]",0.6285714285714286,0.6840909090909091,0.55,0.7333333333333333,0.6904761904761905,"[[11  9]
+ [ 4 18]]",2,3,0.7951807228915663
+2,"{split_feature:attribute_12,split_value:0.22503333333333334,gini_value:0.3379460799303908,train_num_sample:166,depth:0,left_tree:{split_feature:attribute_56,split_value:0.0198,gini_value:0.1635158905250326,train_num_sample:69,depth:1,left_tree:{leaf_value:1.0,train_num_sample:67,depth:2},right_tree:{leaf_value:0.0,train_num_sample:2,depth:2}},right_tree:{leaf_value:0.0,train_num_sample:97,depth:1}}","[1, 2]",0.6666666666666667,0.6899313501144165,0.6842105263157895,0.65,0.6904761904761905,"[[13  6]
+ [ 7 16]]",2,3,0.7771084337349398
+3,"{leaf_value:0.0,train_num_sample:167,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5365853658536586,"[[ 0 19]
+ [ 0 22]]",0,1,0.5329341317365269
+4,"{split_feature:attribute_11,split_value:0.17842121212121215,gini_value:0.33497426546973225,train_num_sample:167,depth:0,left_tree:{split_feature:attribute_1,split_value:0.0368,gini_value:0.1416290685673713,train_num_sample:64,depth:1,left_tree:{leaf_value:1.0,train_num_sample:59,depth:2},right_tree:{leaf_value:0.0,train_num_sample:5,depth:2}},right_tree:{leaf_value:0.0,train_num_sample:103,depth:1}}","[1, 2]",0.6,0.6913875598086123,0.47368421052631576,0.8181818181818182,0.7073170731707317,"[[ 9 10]
+ [ 2 20]]",2,3,0.7904191616766467

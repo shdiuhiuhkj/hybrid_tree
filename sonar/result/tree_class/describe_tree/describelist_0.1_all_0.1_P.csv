@@ -1,0 +1,11 @@
+,describe_tree,can,f1_score1,roc_auc,recall,prec,acc,score_arr,depth,num_node,score_train
+0,"{leaf_value:0.0,train_num_sample:166,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5238095238095238,"[[ 0 20]
+ [ 0 22]]",0,1,0.536144578313253
+1,"{split_feature:attribute_8,split_value:0.43633333333333363,gini_value:0.251801350653873,train_num_sample:166,depth:0,left_tree:{split_feature:attribute_9,split_value:0.5621333333333334,gini_value:0.2502668994824239,train_num_sample:164,depth:1,left_tree:{leaf_value:0.0,train_num_sample:162,depth:2},right_tree:{leaf_value:0.0,train_num_sample:2,depth:2}},right_tree:{leaf_value:0.0,train_num_sample:2,depth:1}}","[1, 2]",0.0,0.5,0.0,0.0,0.5238095238095238,"[[ 0 20]
+ [ 0 22]]",2,3,0.536144578313253
+2,"{leaf_value:0.0,train_num_sample:166,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5476190476190477,"[[ 0 19]
+ [ 0 23]]",0,1,0.5301204819277109
+3,"{leaf_value:0.0,train_num_sample:167,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5365853658536586,"[[ 0 19]
+ [ 0 22]]",0,1,0.5329341317365269
+4,"{leaf_value:0.0,train_num_sample:167,depth:0}","[1, 2]",0.0,0.5,0.0,0.0,0.5365853658536586,"[[ 0 19]
+ [ 0 22]]",0,1,0.5329341317365269
