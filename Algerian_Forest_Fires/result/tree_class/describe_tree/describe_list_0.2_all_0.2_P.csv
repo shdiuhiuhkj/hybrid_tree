@@ -1,0 +1,11 @@
+,describe_tree,can,f1_score1,roc_auc,recall,prec,acc,score_arr,depth,num_node,score_train
+0,"{split_feature:FFMC,split_value:82.53636363636363,gini_value:-0.04709376501650271,train_num_sample:195,depth:0,left_tree:{leaf_value:0.0,train_num_sample:89,depth:1},right_tree:{leaf_value:1.0,train_num_sample:106,depth:1}}","[1, 2]",0.8750000000000001,0.8888888888888888,0.7777777777777778,1.0,0.8775510204081632,"[[21  6]
+ [ 0 22]]",1,2,0.9743589743589743
+1,"{split_feature:ISI,split_value:3.0,gini_value:-0.040644189999102506,train_num_sample:195,depth:0,left_tree:{leaf_value:0.0,train_num_sample:91,depth:1},right_tree:{leaf_value:1.0,train_num_sample:104,depth:1}}","[1, 2]",0.9818181818181818,0.9821428571428572,0.9642857142857143,1.0,0.9795918367346939,"[[27  1]
+ [ 0 21]]",1,2,0.9692307692307692
+2,"{split_feature:FFMC,split_value:80.03030303030303,gini_value:-0.05298046139171875,train_num_sample:195,depth:0,left_tree:{leaf_value:0.0,train_num_sample:83,depth:1},right_tree:{leaf_value:1.0,train_num_sample:112,depth:1}}","[1, 2]",0.9491525423728813,0.9285714285714286,1.0,0.9032258064516129,0.9387755102040817,"[[28  0]
+ [ 3 18]]",1,2,0.9897435897435898
+3,"{split_feature:FFMC,split_value:82.21414141414142,gini_value:-0.0455680512959088,train_num_sample:195,depth:0,left_tree:{leaf_value:0.0,train_num_sample:91,depth:1},right_tree:{leaf_value:1.0,train_num_sample:104,depth:1}}","[1, 2]",0.962962962962963,0.9642857142857143,0.9285714285714286,1.0,0.9591836734693877,"[[26  2]
+ [ 0 21]]",1,2,0.9692307692307692
+4,"{split_feature:FFMC,split_value:82.12121212121212,gini_value:-0.05045456057602802,train_num_sample:196,depth:0,left_tree:{leaf_value:0.0,train_num_sample:91,depth:1},right_tree:{leaf_value:1.0,train_num_sample:105,depth:1}}","[1, 2]",0.9811320754716981,0.9814814814814814,0.9629629629629629,1.0,0.9791666666666666,"[[26  1]
+ [ 0 21]]",1,2,0.9693877551020408

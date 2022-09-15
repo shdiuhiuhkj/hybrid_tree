@@ -1,0 +1,133 @@
+label_name = 'Class'
+label_nom ='Rock'#小类的标签将少数类作为正例，聚焦在少数类上因此异常应为1
+path ='sonar'
+path_result='./sonar/result/tree_class/'
+path_result_dt='./sonar/result/tree_class/describe_tree/describe'
+names =['attribute_1', 'attribute_2', 'attribute_3', 'attribute_4', 'attribute_5',
+        'attribute_6', 'attribute_7', 'attribute_8', 'attribute_9', 'attribute_10',
+        'attribute_11', 'attribute_12', 'attribute_13', 'attribute_14',
+        'attribute_15', 'attribute_16', 'attribute_17', 'attribute_18',
+        'attribute_19', 'attribute_20', 'attribute_21', 'attribute_22',
+        'attribute_23', 'attribute_24', 'attribute_25', 'attribute_26',
+        'attribute_27', 'attribute_28', 'attribute_29', 'attribute_30',
+        'attribute_31', 'attribute_32', 'attribute_33', 'attribute_34',
+        'attribute_35', 'attribute_36', 'attribute_37', 'attribute_38',
+        'attribute_39', 'attribute_40', 'attribute_41', 'attribute_42',
+        'attribute_43', 'attribute_44', 'attribute_45', 'attribute_46',
+        'attribute_47', 'attribute_48', 'attribute_49', 'attribute_50',
+        'attribute_51', 'attribute_52', 'attribute_53', 'attribute_54',
+        'attribute_55', 'attribute_56', 'attribute_57', 'attribute_58',
+        'attribute_59', 'attribute_60', 'Class']
+names_sort =['attribute_1', 'attribute_2', 'attribute_3', 'attribute_4', 'attribute_5',
+        'attribute_6', 'attribute_7', 'attribute_8', 'attribute_9', 'attribute_10',
+        'attribute_11', 'attribute_12', 'attribute_13', 'attribute_14',
+        'attribute_15', 'attribute_16', 'attribute_17', 'attribute_18',
+        'attribute_19', 'attribute_20', 'attribute_21', 'attribute_22',
+        'attribute_23', 'attribute_24', 'attribute_25', 'attribute_26',
+        'attribute_27', 'attribute_28', 'attribute_29', 'attribute_30',
+        'attribute_31', 'attribute_32', 'attribute_33', 'attribute_34',
+        'attribute_35', 'attribute_36', 'attribute_37', 'attribute_38',
+        'attribute_39', 'attribute_40', 'attribute_41', 'attribute_42',
+        'attribute_43', 'attribute_44', 'attribute_45', 'attribute_46',
+        'attribute_47', 'attribute_48', 'attribute_49', 'attribute_50',
+        'attribute_51', 'attribute_52', 'attribute_53', 'attribute_54',
+        'attribute_55', 'attribute_56', 'attribute_57', 'attribute_58',
+        'attribute_59', 'attribute_60', 'Class']
+names_nolabel =['attribute_1', 'attribute_2', 'attribute_3', 'attribute_4', 'attribute_5',
+        'attribute_6', 'attribute_7', 'attribute_8', 'attribute_9', 'attribute_10',
+        'attribute_11', 'attribute_12', 'attribute_13', 'attribute_14',
+        'attribute_15', 'attribute_16', 'attribute_17', 'attribute_18',
+        'attribute_19', 'attribute_20', 'attribute_21', 'attribute_22',
+        'attribute_23', 'attribute_24', 'attribute_25', 'attribute_26',
+        'attribute_27', 'attribute_28', 'attribute_29', 'attribute_30',
+        'attribute_31', 'attribute_32', 'attribute_33', 'attribute_34',
+        'attribute_35', 'attribute_36', 'attribute_37', 'attribute_38',
+        'attribute_39', 'attribute_40', 'attribute_41', 'attribute_42',
+        'attribute_43', 'attribute_44', 'attribute_45', 'attribute_46',
+        'attribute_47', 'attribute_48', 'attribute_49', 'attribute_50',
+        'attribute_51', 'attribute_52', 'attribute_53', 'attribute_54',
+        'attribute_55', 'attribute_56', 'attribute_57', 'attribute_58',
+        'attribute_59', 'attribute_60']
+numfeatures =['attribute_1', 'attribute_2', 'attribute_3', 'attribute_4', 'attribute_5',
+        'attribute_6', 'attribute_7', 'attribute_8', 'attribute_9', 'attribute_10',
+        'attribute_11', 'attribute_12', 'attribute_13', 'attribute_14',
+        'attribute_15', 'attribute_16', 'attribute_17', 'attribute_18',
+        'attribute_19', 'attribute_20', 'attribute_21', 'attribute_22',
+        'attribute_23', 'attribute_24', 'attribute_25', 'attribute_26',
+        'attribute_27', 'attribute_28', 'attribute_29', 'attribute_30',
+        'attribute_31', 'attribute_32', 'attribute_33', 'attribute_34',
+        'attribute_35', 'attribute_36', 'attribute_37', 'attribute_38',
+        'attribute_39', 'attribute_40', 'attribute_41', 'attribute_42',
+        'attribute_43', 'attribute_44', 'attribute_45', 'attribute_46',
+        'attribute_47', 'attribute_48', 'attribute_49', 'attribute_50',
+        'attribute_51', 'attribute_52', 'attribute_53', 'attribute_54',
+        'attribute_55', 'attribute_56', 'attribute_57', 'attribute_58',
+        'attribute_59', 'attribute_60']
+names_nolabel_nosort=['attribute_1', 'attribute_2', 'attribute_3', 'attribute_4', 'attribute_5',
+        'attribute_6', 'attribute_7', 'attribute_8', 'attribute_9', 'attribute_10',
+        'attribute_11', 'attribute_12', 'attribute_13', 'attribute_14',
+        'attribute_15', 'attribute_16', 'attribute_17', 'attribute_18',
+        'attribute_19', 'attribute_20', 'attribute_21', 'attribute_22',
+        'attribute_23', 'attribute_24', 'attribute_25', 'attribute_26',
+        'attribute_27', 'attribute_28', 'attribute_29', 'attribute_30',
+        'attribute_31', 'attribute_32', 'attribute_33', 'attribute_34',
+        'attribute_35', 'attribute_36', 'attribute_37', 'attribute_38',
+        'attribute_39', 'attribute_40', 'attribute_41', 'attribute_42',
+        'attribute_43', 'attribute_44', 'attribute_45', 'attribute_46',
+        'attribute_47', 'attribute_48', 'attribute_49', 'attribute_50',
+        'attribute_51', 'attribute_52', 'attribute_53', 'attribute_54',
+        'attribute_55', 'attribute_56', 'attribute_57', 'attribute_58',
+        'attribute_59', 'attribute_60']
+no_num_features = []  # 注意不需加上Label
+
+tolerance_rate =2
+issame_rate = 0.2
+knn_rate = 2#有自编码器
+# knn_rate=0.61#无自编码器
+# knn_rate = 2#有自编码器(cross)
+# knn_rate = 2.2#有自编码器(re3)
+
+f1_all_1a = []
+f1_all_2a = []
+f1_all_2b=[]
+arra = []
+cana = []
+deptha = []
+roc_alla = []
+acc_alla = []
+prec_alla = []
+recall_alla = []
+k=5.0
+n=-1
+num_class=2
+resample_num=10
+f1_all_1a = []
+f1_all_2a = []
+f1_all_2b=[]
+arra = []
+cana = []
+deptha = []
+roc_alla = []
+acc_alla = []
+prec_alla = []
+recall_alla = []
+num_nodea=[]
+can_dt=[]
+describe_treea=[]
+f1_all_2_dt=[]
+arr_dt = []
+num_node_dt = []
+depth_dt = []
+roc_all_dt = []
+acc_all_dt = []
+prec_all_dt = []
+recall_all_dt = []
+score_train_dt=[]
+k=5.0
+n=-1
+num_class=2
+
+for b in range(5):
+    df = pd.read_csv('./sonar/train_sonar_'+str(b)+'.csv', names=names, header=None)
+    df_test = pd.read_csv('./sonar/test_sonar_'+str(b)+'.csv', names=names,
+                          header=None)
